@@ -23,7 +23,7 @@ const mergeRules = {
 module.exports = (webpackConfigEnv, argv) => {
   const defaultConfig = singleSpaDefaults({
     orgName: "zuri",
-    projectName: "task-manager",
+    projectName: "zuri-plugin-task-manager",
     webpackConfigEnv,
     argv
   })
